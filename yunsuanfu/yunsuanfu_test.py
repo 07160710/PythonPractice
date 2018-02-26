@@ -73,5 +73,22 @@ nums = 10
 # nums > 5 && nums < 20
 print(5 < nums < 20)
 
-# 逻辑运算符
+print("--------------------")
+# 逻辑运算符（整个逻辑表达式不一定只是true 和 false）
+# not 非  取反，真 --> 假 ； 假 ---> 真；
+k = True
+# 一元运算符
+print(not k)
+# and 与 ，并且 and 的两边，必须都为真，最终才会是真  真  and  真  - 》 真，一假全假
+# 二元运算符
+print(True and False)
+# or 或 ，或者 ， or 的两边，只要有一个是真的，那么最终都是真的,一真全真
+print(True or False)
+# 非bool类型的，非0即真，非空即真
+print(bool(1))
+print(0 or True)
+print(1 and 3)
+print(1 or 3)
+# print(bool(0))
+# print(bool(""))
 
