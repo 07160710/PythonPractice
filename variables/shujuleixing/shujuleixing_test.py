@@ -23,3 +23,4 @@ print(str(4) + nums)
 score = input("请输入一个数字") #字符串数值类型
 print(type(score))
 print(int(score) + 6)
+# python 是属于强类型，动态类型的语言
