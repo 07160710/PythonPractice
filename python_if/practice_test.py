@@ -46,3 +46,9 @@ elif 60 <= score < 80:
     print("及格")
 elif 0 <= score < 60:
     print("不及格")
+
+
+# 注意 强制缩进  tab缩进  嵌套  if  - else 匹配问题
+# 按照缩进格式进行匹配
+# 不要写嵌套太深的代码
+# python没有类似switch --- case 的语法
